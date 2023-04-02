@@ -1,0 +1,26 @@
+.calculator{
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgb(88, 88, 88);
+    padding-bottom: 7px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+    
+}
+
+.body{
+    display: flex;
+    height: 400px;
+    width: 260px;
+    background-color: rgb(224, 217, 201);
+    justify-content: center;
+    padding-top: 60px;
+    border-radius: 10px;
+    box-shadow: 18px 19px 45px -15px rgba(0,0,0,0.75);
+    
+}
+
